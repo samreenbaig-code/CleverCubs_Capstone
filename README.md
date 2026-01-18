@@ -1,6 +1,6 @@
-# CleverCubs 🧠🐾 – Capstone iOS App
+# CleverClubs 🧠🐾 – Capstone iOS App
 
-**CleverCubs** is an educational iOS app built for young learners (ages 2–6), designed to teach letters, colors, memory, and cognitive skills through fun mini-games and interactive tracing activities. Developed as part of my final Capstone Project at **triOS College – Mobile Web Developer Program**.
+**CleverClubs** is an educational iOS app built for young learners (ages 2–6), designed to teach letters, colors, memory, and cognitive skills through fun mini-games and interactive tracing activities. Developed as part of my final Capstone Project at **triOS College – Mobile Web Developer Program**.
 
 ---
 
@@ -43,7 +43,7 @@ A child-friendly welcome menu with large, colorful buttons that lead to each act
 ## 🚀 Getting Started
 
 1. Clone the repo  
-   `git clone https://github.com/YOUR_USERNAME/CleverCubs_Capstone.git`
+   `git clone https://github.com/samreenbaig_code/CleverClubs_Capstone.git`
 
 2. Open in Xcode (15.0 or later)  
    `CleverCubs.xcodeproj`
@@ -57,7 +57,7 @@ A child-friendly welcome menu with large, colorful buttons that lead to each act
 - **Student Name:** Samreen Baig  
 - **Program:** Mobile Web Developer  
 - **Instructor:** Doug Jasper  
-- **Due Date:** January 16, 2026  
+- **Due Date:** January 19, 2026  
 - **College:** triOS College
 
 ---
