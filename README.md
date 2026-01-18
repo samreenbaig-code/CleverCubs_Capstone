@@ -64,10 +64,25 @@ A child-friendly welcome menu with large, colorful buttons that lead to each act
 
 ## 📸 Screenshots
 
-> Add images here if you want! Example:
-> `![Splash Screen](Screenshots/splash.png)`
+### 🏁 Splash Screen
+![Splash](Screenshots/splash.png)
 
----
+### ✏️ Welcome Screen
+![Trace](Screenshots/welcom.png)
+
+### 🎨 Sign up
+![Color Quest](Screenshots/signup.png)
+## 📸 Screenshots
+
+### 🏁 Sign in
+![Splash](Screenshots/Signin.png)
+
+### ✏️ Lets Play
+![Trace](Screenshots/letsplay.png)
+
+### 🎨 ABC Adventure
+![Color Quest](Screenshots/ABCadventure.png)
+
 
 ## 📜 License
 
