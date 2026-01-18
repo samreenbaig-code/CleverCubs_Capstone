@@ -1,0 +1,39 @@
+import Foundation
+import AVFoundation
+
+final class AudioManager {
+    static let shared = AudioManager()
+    private var player: AVAudioPlayer?
+
+    private init() {}
+
+    func startMusic() {
+        // If already playing, don’t restart
+        if let player = player, player.isPlaying { return }
+
+        guard let url = Bundle.main.url(forResource: "bg_music", withExtension: "mp3")
+            ?? Bundle.main.url(forResource: "bg_music", withExtension: "m4a")
+            ?? Bundle.main.url(forResource: "bg_music", withExtension: "wav")
+        else {
+            print("❌ bg_music file not found in app bundle")
+            return
+        }
+
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.ambient, mode: .default)
+            try AVAudioSession.sharedInstance().setActive(true)
+
+            player = try AVAudioPlayer(contentsOf: url)
+            player?.numberOfLoops = -1 // infinite loop
+            player?.volume = 0.5
+            player?.play()
+        } catch {
+            print("❌ Audio error: \(error.localizedDescription)")
+        }
+    }
+
+    func stopMusic() {
+        player?.stop()
+        player = nil
+    }
+}
